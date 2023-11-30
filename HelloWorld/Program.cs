@@ -13,4 +13,12 @@
 
         }
     }
+
+    class Box {
+        private int length = 3;
+        private int height = 5;
+        public int width = 2;
+
+    }
+
 }

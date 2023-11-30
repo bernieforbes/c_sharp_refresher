@@ -1,0 +1,14 @@
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\bin\Debug\net6.0\HelloWorld.exe
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\bin\Debug\net6.0\HelloWorld.deps.json
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\bin\Debug\net6.0\HelloWorld.runtimeconfig.json
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\bin\Debug\net6.0\HelloWorld.dll
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\bin\Debug\net6.0\HelloWorld.pdb
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\obj\Debug\net6.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfoInputs.cache
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfo.cs
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.CoreCompileInputs.cache
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\obj\Debug\net6.0\HelloWorld.dll
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\obj\Debug\net6.0\refint\HelloWorld.dll
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\obj\Debug\net6.0\HelloWorld.pdb
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\obj\Debug\net6.0\HelloWorld.genruntimeconfig.cache
+E:\_development\workspace_c#\c_sharp_refresher\HelloWorld\obj\Debug\net6.0\ref\HelloWorld.dll
