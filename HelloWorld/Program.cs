@@ -44,6 +44,22 @@
             string[] bar = {"a", "b"};
             Console.WriteLine("The value is {0}", bar[1]);
             Console.ReadKey();
+
+            int[][] jaggedArray = new int[][]
+                       {
+                new int[] {2, 3, 5, 7, 11 },
+                new int[] {1, 2, 3}
+            };
+
+            Console.WriteLine("The value in the middle of the first entry is {0}", jaggedArray[0][2]);
+
+            for(int i = 0; i < jaggedArray.Length; i++) {
+                Console.WriteLine("Element {0}", i);
+                for(int j = 0; j < jaggedArray[i].Length; j++) {
+                    Console.WriteLine("{0}", jaggedArray[i][j]);
+                }
+            }
+
         }
     }
 
