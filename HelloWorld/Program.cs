@@ -25,6 +25,25 @@
             Console.WriteLine("{0}", box.GetLength());
             Console.WriteLine("{0}", box.Height);
             Console.WriteLine("{0}", box.GetVolume());
+
+            string[,,] foo = new string[,,]
+                       {
+                {
+                    {"000", "001"},
+                    {"010", "011"}
+                } ,
+                {
+                    {"100", "101"},
+                    {"110", "111"},
+                }
+            };
+
+            Console.WriteLine("The value is {0}", foo[1, 1, 0]);
+            Console.ReadKey();
+
+            string[] bar = {"a", "b"};
+            Console.WriteLine("The value is {0}", bar[1]);
+            Console.ReadKey();
         }
     }
 
