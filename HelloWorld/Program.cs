@@ -1,14 +1,16 @@
-﻿namespace HelloWorld
-{
-    class Program
-    {
+﻿using System;
+using System.Collections;
 
-        struct Foo
-        {
+namespace HelloWorld
+{
+    class Program {
+
+        struct Foo {
             public int x;
         };
 
-        static void Main(string[] args) {
+        static void Main(string[] args)
+        {
             Console.WriteLine("Hello, World!");
 
             Box box = new Box();
@@ -27,7 +29,7 @@
             Console.WriteLine("{0}", box.GetVolume());
 
             string[,,] foo = new string[,,]
-                       {
+            {
                 {
                     {"000", "001"},
                     {"010", "011"}
@@ -46,7 +48,7 @@
             Console.ReadKey();
 
             int[][] jaggedArray = new int[][]
-                       {
+            {
                 new int[] {2, 3, 5, 7, 11 },
                 new int[] {1, 2, 3}
             };
@@ -60,10 +62,47 @@
                 }
             }
 
+            ArrayList myArrayList = new ArrayList();
+            ArrayList myArrayList2 = new ArrayList();
+
+            myArrayList.Add(25);
+            myArrayList.Add("Hello");
+            myArrayList.Add(13.37);
+            myArrayList.Add(13);
+            myArrayList.Add(128);
+            myArrayList.Add(25.3);
+            myArrayList.Add(13);
+
+            // delete element with specific value from arrayList
+            myArrayList.Remove(13);
+
+            // delete element at specific position
+            myArrayList.RemoveAt(0);
+
+            Console.WriteLine(myArrayList.Count);
+
+            double sum = 0;
+
+            foreach(object obj in myArrayList) {
+                if(obj is int)
+                {
+                    sum += Convert.ToDouble(obj);
+                } else if(obj is double)
+                {
+                    sum += (double)obj;
+                }
+                else if (obj is string)
+                {
+                    Console.WriteLine(obj);
+                }
+            }
+
+            Console.WriteLine(sum);
+            Console.ReadKey();
         }
     }
 
-class Box {
+    class Box {
         private int length = 3;
         private int height = 5;
         public int width = 2;
